@@ -13,3 +13,14 @@ Please provide source, documentation on how to run the program and an explanatio
 ## Submission
 
 You may fork this repo, commit your work and let us know of your project's location, or you may email us your project files in a zip file.
+
+## Run project
+1. Go to project folder
+or:
+2. Run: mvn compile exec:java -Dexec.mainClass="com.olek.datamerge.DataMerge" -Dexec.arguments="full-reports.csv,reports.csv,reports.json,reports.xml"
+or:
+3. Run: mvn clean compile assembly:single
+4. Run: java -jar target/datamerge-1.0-SNAPSHOT-jar-with-dependencies.jar full-reports.csv reports.csv reports.json reports.xml
+
+
+
